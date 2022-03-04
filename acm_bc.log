@@ -1,0 +1,114 @@
+server listening 0.0.0.0:514
+
+server got a message from 192.168.1.1:34486
+
+  HEX  : 6161612061757468656e7469636174696f6e206c6f67696e2064656661756c742067726f7570207261646975730a
+
+  ASCII: aaa authentication login default group radius
+
+{ event_id: 4,
+
+  time_stamp: 1643656800,
+
+  system_id: 2864434397,
+
+  system_name: 'BC Test',
+
+  system_ip: '192.168.1.1',
+
+  user_name: 'test admin',
+
+  interface_name: 'webui',
+
+  audit_info_type: 'Config',
+
+  audit_info_sub_type: 'Config_Addition',
+
+  audit_data: 'username admin password admin' }
+
+Creating audit  event
+
+Adding Audit info to blockchain network success
+
+querying for last events
+
+Query response received
+
+{ event_id: 4,
+
+  time_stamp: 1643656800,
+
+  system_id: 2864434397,
+
+  system_name: 'BC Test',
+
+  system_ip: '192.168.1.1',
+
+  user_name: 'test admin',
+
+  interface_name: 'webui',
+
+  audit_info_type: 'Config',
+
+  audit_info_sub_type: 'Config_Addition',
+
+  audit_data: 'username admin password admin' }
+
+
+server got a message from 127.0.0.1:59531
+
+  HEX  : 6e6f206161612061757468656e7469636174696f6e206c6f67696e2064656661756c742067726f7570207261646975730a
+
+  ASCII: no aaa authentication login default group radius
+
+
+
+{ event_id: 5,
+
+  time_stamp: 1643656802,
+
+  system_id: 2864434397,
+
+  system_name: 'BC Test',
+
+  system_ip: '192.168.1.1',
+
+  user_name: 'test admin',
+
+  interface_name: 'webui',
+
+  audit_info_type: 'Config',
+
+  audit_info_sub_type: 'Config_Removal',
+
+  audit_data: 'no username admin password admin' }
+
+Creating audit  event
+
+Adding Audit info to blockchain network success
+
+querying for last events
+
+Query response received
+
+{ event_id: 5,
+
+  time_stamp: 1643656802,
+
+  system_id: 2864434397,
+
+  system_name: 'BC Test',
+
+  system_ip: '192.168.1.1',
+
+  user_name: 'test admin',
+
+  interface_name: 'webui',
+
+  audit_info_type: 'Config',
+
+  audit_info_sub_type: 'Config_Removal',
+
+  audit_data: 'no username admin password admin' }
+
+
